@@ -1,20 +1,26 @@
 <template>
   <div class="formSearch">
-
+    <v-text-field
+        v-model="search"
+    ></v-text-field>
   </div>
 </template>
 
 <script>
 export default {
   name: 'FormSearch',
+  data() {
+    return {
+      search: 'Быстрый поиск',
+    }
+  }
 }
 </script>
 
 <style>
-.formSearch{
+.formSearch {
   width: 338px;
   height: 37px;
-  background-color: burlywood;
   margin: 0 auto;
 }
 </style>

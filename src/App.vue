@@ -1,11 +1,11 @@
 <template>
-  <div class="app">
-    <MenuMobil/>
-    <TabItems/>
-    <FormSearch/>
-    <BtnBlock/>
-    <DataList/>
-  </div>
+    <div class="app">
+      <MenuMobil/>
+      <TabItems/>
+      <FormSearch/>
+      <BtnBlock/>
+      <DataList/>
+    </div>
 </template>
 
 <script>
